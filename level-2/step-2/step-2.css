@@ -7,28 +7,34 @@
 /* Step-2 Add a width, height and display property to make these containers look like the design. */
 .item {
    /*width*/
-    /*height*/
-    /*display*/
+    height: 300px;
+    width: 40%;
     margin: 0 20px 30px;
-    background: #DED6D3;
+    background: rgb(44, 42, 41);
     margin-bottom: 30px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 70px;
 }
 
 /* Step-2 Add a width, height, and margin property to make these containers look like the design. Remember margin: auto is helpful when trying to center a container. */
 .full-width-item {
-    /*width*/
-    /*height*/
-    /*margin*/
+    width: 80%;
+    height: 200px;
     margin:0 auto 30px;
-    background: #DED6D3;
+    background: rgb(134, 106, 211);
+    margin: auto;
+    clear: both;
 }
 
 /* Step-2 Add a width, height, and margin property to make these containers look like the design. Remember margin: auto is helpful when trying to center a container. */
 .large-item {
-    /*width*/
-    /*height*/
-    /*margin*/
-    background: #DED6D3;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(190, 216, 46);
+    clear: both;
 }
 
 
